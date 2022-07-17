@@ -1,7 +1,10 @@
+import React from "react"
 import { Link } from "react-router-dom";
 import "./topbar.css";
 import logoasp from "./logoasp.png"
 import me from "./benedikt.png"
+import ReactTooltip from 'react-tooltip';
+
 
 export default function Topbar() {
   const user = true;
@@ -18,15 +21,19 @@ export default function Topbar() {
             <Link className="link" to="/">
               HOME
             </Link>
-            
+
           </li>          <li className="topListItem">MY GOAL</li>
           <li className="topListItem"><a className=" topListanchor" target="blank" href="https://www.letmesee.be">ABOUT ME</a></li>
         </ul>
 
       </div>
       <div className="topRight">
-        <div className="antimover">
-        <i className="topSearchIcon fas fa-info-circle"></i></div>
+        <ReactTooltip place="bottom" type="info" effect="float"/>
+
+        <div data-tip="0499 388 227" className="antimover">
+          <i className="topSearchIcon fas fa-phone"></i>
+        </div>
+
         <a className=" topListanchor" target="blank" href="https://www.letmesee.be">
           <img
             className="topImg"
