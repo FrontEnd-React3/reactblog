@@ -75,10 +75,25 @@
   margin-right: 15px;
   cursor: pointer;
 }
-
+.antimover {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
 .topSearchIcon {
-  font-size: 18px;
+  top: 23px;
+  left: 21px;
+  position: absolute;
+  font-size: 28px;
   color: rgb(0, 80, 110);
+  cursor: pointer;
+  transition: all 1s;
+}
+.topSearchIcon:hover {
+  top: 18px;
+  left: 16px;
+  font-size: 38px;
+  color: orange;
   cursor: pointer;
 }
 .topimg:hover {

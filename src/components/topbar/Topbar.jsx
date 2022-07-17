@@ -12,18 +12,21 @@ export default function Topbar() {
       </div>
       <div className="topCenter">
         <ul className="topList">
+
+
           <li className="topListItem">
             <Link className="link" to="/">
               HOME
             </Link>
-          </li>
-          <li className="topListItem"><a className=" topListanchor" target="blank" href="https://www.letmesee.be">ABOUT</a></li>
-          <li className="topListItem">CONTACT</li>
+            
+          </li>          <li className="topListItem">MY GOAL</li>
+          <li className="topListItem"><a className=" topListanchor" target="blank" href="https://www.letmesee.be">ABOUT ME</a></li>
         </ul>
 
       </div>
       <div className="topRight">
-        <i className="topSearchIcon fas fa-search"></i>
+        <div className="antimover">
+        <i className="topSearchIcon fas fa-info-circle"></i></div>
         <a className=" topListanchor" target="blank" href="https://www.letmesee.be">
           <img
             className="topImg"
