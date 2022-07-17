@@ -1,4 +1,3 @@
-import { useLocation } from "react-router";
 import Kaizen from "../../components/kaizen/Kaizen";
 import Header from "../../components/header/Header";
 import Posts from "../../components/posts/Posts";

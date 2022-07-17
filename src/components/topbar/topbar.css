@@ -48,7 +48,10 @@
   padding: 0;
   list-style: none;
 }
-
+.linklogo {
+  height: auto;
+  cursor: pointer;
+}
 .topListItem {
   margin-right: 20px;
   font-size: 18px;

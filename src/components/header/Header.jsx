@@ -3,7 +3,8 @@ import hero from "./images/reactt2.png";
 
 export default function Header() {
   return (
-    <div className="header">
+    <div  className="header">
+      <div id="top"></div>
       <div className="headerTitles">
         <span className="headerTitleSm">To React or not to React, that's the question...</span>
       </div>

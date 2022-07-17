@@ -1,7 +1,13 @@
 .header {
   margin-top: 60px;
 }
-
+#top {
+  background: red;
+  width: 100vw;
+  height: 1px;
+  position: absolute;
+  top: -300px;
+}
 .headerTitles {
   display: flex;
   flex-direction: column;
