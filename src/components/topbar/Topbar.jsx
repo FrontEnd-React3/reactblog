@@ -17,20 +17,20 @@ export default function Topbar() {
               HOME
             </Link>
           </li>
-          <li className="topListItem">ABOUT</li>
+          <li className="topListItem"><a className=" topListanchor" target="blank" href="https://www.letmesee.be">ABOUT</a></li>
           <li className="topListItem">CONTACT</li>
         </ul>
 
       </div>
       <div className="topRight">
-       
-            <img
-              className="topImg"
-              src={me}
-              alt={me}
-            />
-        
         <i className="topSearchIcon fas fa-search"></i>
+        <a className=" topListanchor" target="blank" href="https://www.letmesee.be">
+          <img
+            className="topImg"
+            src={me}
+            alt={me}
+          />
+        </a>
       </div>
     </div>
   );

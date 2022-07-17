@@ -16,12 +16,18 @@
   height: auto;
   margin: 100px 0px;
 }
-.topLeft,
-.topRight {
+.topLeft {
   flex: 3;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .topIcon {
@@ -49,8 +55,16 @@
   font-weight: 400;
   cursor: pointer;
 }
-
+.topListanchor,
+.topListItem {
+  text-decoration: none;
+  transition: all 1s;
+  color: rgb(0 80 110);
+}
 .topListItem:hover {
+  color: gray;
+}
+.topListanchor:hover {
   color: gray;
 }
 
@@ -70,4 +84,4 @@
 .topimg:hover {
   box-shadow: rgba(100, 100, 111, 0.6) 10px 70px 29px 0px;
   cursor: pointer;
-  }
+}
