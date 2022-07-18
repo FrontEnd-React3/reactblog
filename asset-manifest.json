@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/rontEnd-React3/reactblog/static/css/main.927251f1.chunk.css",
+    "main.js": "/rontEnd-React3/reactblog/static/js/main.cdf924f6.chunk.js",
+    "main.js.map": "/rontEnd-React3/reactblog/static/js/main.cdf924f6.chunk.js.map",
+    "runtime-main.js": "/rontEnd-React3/reactblog/static/js/runtime-main.d72b1171.js",
+    "runtime-main.js.map": "/rontEnd-React3/reactblog/static/js/runtime-main.d72b1171.js.map",
+    "static/css/2.ec02d681.chunk.css": "/rontEnd-React3/reactblog/static/css/2.ec02d681.chunk.css",
+    "static/js/2.4114cae2.chunk.js": "/rontEnd-React3/reactblog/static/js/2.4114cae2.chunk.js",
+    "static/js/2.4114cae2.chunk.js.map": "/rontEnd-React3/reactblog/static/js/2.4114cae2.chunk.js.map",
+    "index.html": "/rontEnd-React3/reactblog/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/rontEnd-React3/reactblog/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.927251f1.chunk.css.map": "/rontEnd-React3/reactblog/static/css/main.927251f1.chunk.css.map",
+    "static/js/2.4114cae2.chunk.js.LICENSE.txt": "/rontEnd-React3/reactblog/static/js/2.4114cae2.chunk.js.LICENSE.txt",
+    "static/media/andrea.3e47f811.jpg": "/rontEnd-React3/reactblog/static/media/andrea.3e47f811.jpg",
+    "static/media/baby2.b5358b4f.jpg": "/rontEnd-React3/reactblog/static/media/baby2.b5358b4f.jpg",
+    "static/media/benedikt.d8747894.png": "/rontEnd-React3/reactblog/static/media/benedikt.d8747894.png",
+    "static/media/door.65b3cfb5.png": "/rontEnd-React3/reactblog/static/media/door.65b3cfb5.png",
+    "static/media/drew.tech.99bac3ee.png": "/rontEnd-React3/reactblog/static/media/drew.tech.99bac3ee.png",
+    "static/media/earth.38d34495.jpg": "/rontEnd-React3/reactblog/static/media/earth.38d34495.jpg",
+    "static/media/github.45e931e2.jpg": "/rontEnd-React3/reactblog/static/media/github.45e931e2.jpg",
+    "static/media/image.4f860884.png": "/rontEnd-React3/reactblog/static/media/image.4f860884.png",
+    "static/media/iphone.ed0162d8.jpg": "/rontEnd-React3/reactblog/static/media/iphone.ed0162d8.jpg",
+    "static/media/kaizen.d57244af.png": "/rontEnd-React3/reactblog/static/media/kaizen.d57244af.png",
+    "static/media/logoasp.a79509db.png": "/rontEnd-React3/reactblog/static/media/logoasp.a79509db.png",
+    "static/media/mobile.418fdaa6.png": "/rontEnd-React3/reactblog/static/media/mobile.418fdaa6.png",
+    "static/media/network.a95b87fa.jpg": "/rontEnd-React3/reactblog/static/media/network.a95b87fa.jpg",
+    "static/media/reactjs.37b01f12.jpg": "/rontEnd-React3/reactblog/static/media/reactjs.37b01f12.jpg",
+    "static/media/reactt2.0b9616d7.png": "/rontEnd-React3/reactblog/static/media/reactt2.0b9616d7.png",
+    "static/media/taart.c3ddfed3.png": "/rontEnd-React3/reactblog/static/media/taart.c3ddfed3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d72b1171.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.4114cae2.chunk.js",
+    "static/css/main.927251f1.chunk.css",
+    "static/js/main.cdf924f6.chunk.js"
+  ]
+}
