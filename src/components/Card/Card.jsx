@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDom from "react-dom";
-import ReadMoreReact from 'read-more-react';
-
 
 function Card({
   setIsOpen,
@@ -31,12 +29,11 @@ function Card({
         <span className="postDate">{ijustneedone.subtitle} </span>
       </div>
       <p className="postDesc">
-        <ReadMoreReact 
-        min={50}
-            ideal={60}
-            max={70}
-            readMoreText="... read more"
-        text={ijustneedone.body} />
+        {isReadMore ? ijustneedone.body.substr(0, 60).substr(0, Math.min(ijustneedone.body.substr(0, 60).length, ijustneedone.body.substr(0, 60).lastIndexOf(" "))) : ijustneedone.body}
+        <span>
+          {isReadMore ? "... read more" : " show less"}
+        </span>
+        {}
       </p>
     </div>
   );

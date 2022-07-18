@@ -38,11 +38,11 @@ function Modal({ setIsOpen, justone }) {
           <img className="modalImg" src={justone.imgMod} alt={justone.imgMod} />
           <div className="modalBodyCont">
             <span className="grayBody modalBody">
-              {justone.body.slice(0, 60)}
+              {justone.body.slice(0, 58)}
               {/* {justone.id == id ? (justone.body).slice(0, 60) : "Nothing"} */}
             </span>
             <span className="blueBody modalBody">
-              {justone.body.slice(60, 1500)}
+              {justone.body.slice(58, 1500)}
             </span>
             <div className="blueBody modalBody spacer">{justone.body1}</div>{" "}
             <div className="blueBody modalBody spacer">{justone.body2}</div>
