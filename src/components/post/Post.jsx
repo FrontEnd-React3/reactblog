@@ -1,10 +1,13 @@
-import React, { useState } from "react";
-import "./post.css";
+import React, { useState, useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"; import "./post.css";
 import { Data } from "./data";
 import Modal from "./Modal";
 import Card from "../Card/Card";
 
 export default function Post() {
+  useEffect(() => { Aos.init({ duration: 2000 }) }, [])
+
   const [isReadMore, setIsReadMore] = useState(true);
 
   const [selectedCard, setSelectedCard] = useState();
@@ -14,7 +17,7 @@ export default function Post() {
     <div className="postwrapper">
       {Data.map((ijustneedone) => (
         <div key={ijustneedone.id}>
-          <div className="post">
+          <div data-aos="fade-up" className="post">
             <Card
               setIsOpen={setIsOpen}
               ijustneedone={ijustneedone}

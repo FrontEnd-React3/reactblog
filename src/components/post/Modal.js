@@ -1,5 +1,6 @@
-import React from "react";
-import ReactDom from "react-dom";
+import React, { useState, useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"; import "./post.css"; import ReactDom from "react-dom";
 import "./Modal.css";
 
 const MODAL_STYLES = {
@@ -26,10 +27,12 @@ const OVERLAY_STYLES = {
 };
 
 function Modal({ setIsOpen, justone }) {
+  useEffect(() => { Aos.init({ duration: 1000 }) }, [])
+
   return (
     <>
       <div style={OVERLAY_STYLES} />
-      <div id="modCont" style={MODAL_STYLES}>
+      <div data-aos="fade-up" id="modCont" style={MODAL_STYLES}>
         <button id="btn" onClick={() => setIsOpen(false)}>
           x
         </button>
