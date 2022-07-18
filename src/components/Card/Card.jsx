@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDom from "react-dom";
+import ReadMoreReact from 'read-more-react';
+
 
 function Card({
   setIsOpen,
   ijustneedone,
   isReadMore,
-  toggleReadMore,
   setSelectedCard
 }) {
   return (
@@ -30,11 +31,12 @@ function Card({
         <span className="postDate">{ijustneedone.subtitle} </span>
       </div>
       <p className="postDesc">
-        {isReadMore ? ijustneedone.body.slice(0, 60) : ijustneedone.body}
-        <span onClick={toggleReadMore} className="read-or-hide">
-          {isReadMore ? "... read more" : " show less"}
-        </span>
-        {}
+        <ReadMoreReact 
+        min={50}
+            ideal={60}
+            max={70}
+            readMoreText="... read more"
+        text={ijustneedone.body} />
       </p>
     </div>
   );

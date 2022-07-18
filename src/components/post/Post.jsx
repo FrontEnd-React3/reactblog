@@ -6,9 +6,7 @@ import Card from "../Card/Card";
 
 export default function Post() {
   const [isReadMore, setIsReadMore] = useState(true);
-  const toggleReadMore = () => {
-    setIsReadMore(!isReadMore);
-  };
+
   const [selectedCard, setSelectedCard] = useState();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,7 +17,6 @@ export default function Post() {
           <div className="post">
             <Card
               setIsOpen={setIsOpen}
-              toggleReadMore={toggleReadMore}
               ijustneedone={ijustneedone}
               isReadMore={isReadMore}
               setSelectedCard={setSelectedCard}
